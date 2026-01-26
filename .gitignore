@@ -4,3 +4,31 @@ data/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+
+# --- 模型权重文件 (最重要) ---
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# --- 训练日志和图表 ---
+*.log
+*.png
+!logo.png  # 如果你有不希望忽略的特定图片，前面加感叹号
+
+# --- Python 缓存 (必加) ---
+__pycache__/
+*.py[cod]
+
+# --- Jupyter Notebook 缓存 (必加) ---
+.ipynb_checkpoints/
+
+# --- 虚拟环境 (防止把环境包也传上去) ---
+venv/
+env/
+.env
+.venv/
+
+# --- IDE 配置 (可选) ---
+.vscode/
+.idea/
