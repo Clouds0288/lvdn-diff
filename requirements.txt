@@ -122,9 +122,10 @@ sympy==1.14.0
 terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.4.0
+torch==2.11.0.dev20260126+cu128
 torch-geometric==2.7.0
-torchaudio
-torchvision
+torchaudio==2.11.0.dev20260126+cu128
+torchvision==0.25.0.dev20260126+cu128
 tornado==6.5.4
 tqdm==4.67.1
 traitlets==5.14.3
